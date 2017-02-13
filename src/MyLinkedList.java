@@ -17,7 +17,7 @@ public class MyLinkedList {
 		}
 	}
 	
-	//Add an element to the end of the list
+	//Add an element at a specified position of the list
 		public void addAtPos(int pos,int data){
 			if(pos<1){
 				System.out.println("INPROPER POSITION");
